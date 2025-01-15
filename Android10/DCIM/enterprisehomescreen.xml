@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><config>
+  <kiosk>
+    <application label="DWDemo" package="com.symbol.datawedge" activity="com.symbol.datawedge.DWDemoActivity"/>
+  </kiosk>
+  <applications>
+    <application label="PTK MAccess" package="com.ptk.maccess" activity="com.puntoticket.maccess.android.activities.PermissionsActivity"/>
+  </applications>
+  <tools>
+    <application label="StageNow" package="com.symbol.tool.stagenow" activity="com.symbol.tool.stagenow.main.HomeScreen"/>
+  </tools>
+  <auto_launch>
+    <application delay="4000" package="com.ptk.maccess" activity=""/>
+  </auto_launch>
+  <passwords>
+		<admin>qPHCJgjBL9uFI09WAwKvhXo6n4sLD4pqGMNBEkIr6iQ=5jxFslguH4TVFoSYZZ7w03/F5rNA6FzU2chI4uGufVM=</admin>
+  </passwords>
+  <user_options>
+    <icon_settings>
+      <app_icon_size>XXL</app_icon_size>
+    </icon_settings>
+  </user_options>
+  <preferences>
+    <admin_inactivity_timeout>600</admin_inactivity_timeout>
+    <orientation/>
+    <wallpaper>/sdcard/TC-014/Fondo Puntoticket.jpg</wallpaper>
+    <usb_debugging_disabled>1</usb_debugging_disabled>
+    <icon_label_text_color>#ff010000</icon_label_text_color>
+    <auto_launch_enable>1</auto_launch_enable>
+    <service_auto_launch_enable>0</service_auto_launch_enable>
+    <wallpaper_stretching_enabled>1</wallpaper_stretching_enabled>
+    <keyguard_search_disabled>1</keyguard_search_disabled>
+    <admin_max_attempts>100</admin_max_attempts>
+    <system_settings_restricted>0</system_settings_restricted>
+    <icon_label_background_color>#00FFFFFF</icon_label_background_color>
+    <fullscreen>1</fullscreen>
+    <keyguard_camera_disabled>1</keyguard_camera_disabled>
+    <kiosk_mode_enabled>0</kiosk_mode_enabled>
+    <title>TC;#45;XXX</title>
+    <logging>
+      <logging_disabled>0</logging_disabled>
+    </logging>
+    <title_bar_icon>
+      <title_bar_icon_disabled>1</title_bar_icon_disabled>
+    </title_bar_icon>
+    <admin_lock_out>
+      <recovery_enabled>0</recovery_enabled>
+    </admin_lock_out>
+  </preferences>
+</config>
